@@ -1,0 +1,187 @@
+{
+  "n_regular": 3000,
+  "n_admin": 558,
+  "regular_users": {
+    "after_hours": {
+      "subtle": {
+        "recall_model": 19.9,
+        "recall_system": 17.2,
+        "mean_risk": 69.2
+      },
+      "moderate": {
+        "recall_model": 100.0,
+        "recall_system": 100.0,
+        "mean_risk": 78.9
+      },
+      "strong": {
+        "recall_model": 100.0,
+        "recall_system": 100.0,
+        "mean_risk": 90.2
+      }
+    },
+    "usb_copy": {
+      "subtle": {
+        "recall_model": 2.0,
+        "recall_system": 1.9,
+        "mean_risk": 45.0
+      },
+      "moderate": {
+        "recall_model": 37.2,
+        "recall_system": 37.1,
+        "mean_risk": 72.2
+      },
+      "strong": {
+        "recall_model": 100.0,
+        "recall_system": 100.0,
+        "mean_risk": 85.9
+      }
+    },
+    "web_exfil": {
+      "subtle": {
+        "recall_model": 1.6,
+        "recall_system": 0.9,
+        "mean_risk": 27.4
+      },
+      "moderate": {
+        "recall_model": 3.6,
+        "recall_system": 3.0,
+        "mean_risk": 50.7
+      },
+      "strong": {
+        "recall_model": 38.1,
+        "recall_system": 37.1,
+        "mean_risk": 71.9
+      }
+    }
+  },
+  "admin_users": {
+    "after_hours": {
+      "subtle": {
+        "recall_model": 76.7,
+        "recall_system": 1.1,
+        "mean_risk": 75.5
+      },
+      "moderate": {
+        "recall_model": 100.0,
+        "recall_system": 1.1,
+        "mean_risk": 83.8
+      },
+      "strong": {
+        "recall_model": 100.0,
+        "recall_system": 5.2,
+        "mean_risk": 92.8
+      }
+    },
+    "usb_copy": {
+      "subtle": {
+        "recall_model": 41.6,
+        "recall_system": 40.3,
+        "mean_risk": 69.0
+      },
+      "moderate": {
+        "recall_model": 98.9,
+        "recall_system": 98.9,
+        "mean_risk": 83.1
+      },
+      "strong": {
+        "recall_model": 100.0,
+        "recall_system": 100.0,
+        "mean_risk": 90.0
+      }
+    },
+    "web_exfil": {
+      "subtle": {
+        "recall_model": 33.0,
+        "recall_system": 21.5,
+        "mean_risk": 63.6
+      },
+      "moderate": {
+        "recall_model": 66.8,
+        "recall_system": 64.5,
+        "mean_risk": 73.4
+      },
+      "strong": {
+        "recall_model": 98.9,
+        "recall_system": 98.9,
+        "mean_risk": 84.3
+      }
+    }
+  },
+  "scenarios": {
+    "after_hours": {
+      "subtle": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "moderate": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "strong": [
+        8,
+        8,
+        0,
+        0
+      ]
+    },
+    "usb_copy": {
+      "subtle": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "moderate": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "strong": [
+        2,
+        2,
+        6,
+        30
+      ]
+    },
+    "web_exfil": {
+      "subtle": [
+        0,
+        0,
+        0,
+        30
+      ],
+      "moderate": [
+        0,
+        0,
+        0,
+        100
+      ],
+      "strong": [
+        0,
+        0,
+        0,
+        250
+      ]
+    }
+  },
+  "alert_stats": {
+    "records": 334905,
+    "users": 1000,
+    "flagged": 6697,
+    "flagged_users": 417,
+    "high": 1574,
+    "high_users": 410,
+    "routine": 5123,
+    "admin_flagged": 3668,
+    "admin_share_pct": 54.8,
+    "admin_users": 12,
+    "admin_routine_pct": 91.8,
+    "reduction_pct": 76.5,
+    "peak_risk": 100.0
+  }
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "user": "DTAA/BJM0992",
+    "role": "IT Admin",
+    "date": "2011-04-21",
+    "x": [
+      19.0,
+      9.0,
+      0.0,
+      177.0
+    ],
+    "median": [
+      12.0,
+      5.0,
+      0.0,
+      8.0
+    ],
+    "p95": [
+      22.0,
+      10.050000190734863,
+      0.0,
+      132.25
+    ],
+    "risk": 99.6,
+    "flagged": true,
+    "priority": "ROUTINE",
+    "truth": "routine",
+    "scenario": "",
+    "note": "admin_top"
+  },
+  {
+    "user": "DTAA/AGW0182",
+    "role": "Administrative Assistant",
+    "date": "2011-04-13",
+    "x": [
+      7.0,
+      2.0,
+      3.0,
+      231.0
+    ],
+    "median": [
+      3.0,
+      0.0,
+      2.0,
+      27.0
+    ],
+    "p95": [
+      5.0,
+      2.0,
+      2.0,
+      260.6499938964844
+    ],
+    "risk": 95.1,
+    "flagged": true,
+    "priority": "ROUTINE",
+    "truth": "routine",
+    "scenario": "",
+    "note": "routine_user"
+  },
+  {
+    "user": "DTAA/NHH0566",
+    "role": "Technician",
+    "date": "2010-01-15",
+    "x": [
+      5.0,
+      2.0,
+      6.0,
+      32.0
+    ],
+    "median": [
+      3.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "p95": [
+      3.5999999046325684,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "risk": 87.2,
+    "flagged": true,
+    "priority": "HIGH",
+    "truth": "attack",
+    "scenario": "usb_copy:strong",
+    "note": "attack_usb"
+  },
+  {
+    "user": "DTAA/QLW0941",
+    "role": "Administrative Staff",
+    "date": "2011-02-25",
+    "x": [
+      4.0,
+      0.0,
+      0.0,
+      262.0
+    ],
+    "median": [
+      3.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "p95": [
+      5.0,
+      0.0,
+      0.0,
+      11.199999809265137
+    ],
+    "risk": 76.3,
+    "flagged": true,
+    "priority": "HIGH",
+    "truth": "attack",
+    "scenario": "web_exfil:strong",
+    "note": "attack_web"
+  }
+]
